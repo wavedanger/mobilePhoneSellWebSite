@@ -1,0 +1,33 @@
+body{
+	            background-image: url("images/bg.jpg");
+				-webkit-background-size: cover;
+				background-size:cover;
+				color:white;
+				background-attachment: fixed;
+}
+@media screen and (max-width:1000px){
+			body{
+				background-image: url("images/bg3.jpg");
+				-webkit-background-size: cover;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+		}
+body h1{
+	text-align: center;
+	margin-bottom:1em;
+}
+.login-top{
+	margin-top:2em;
+}
+.inner-bg{
+	width:50%;
+	margin:100px auto;
+	background-color: rgba(0,0,0,0.5);
+	padding:10px;
+}
+
+body h2{
+    font-weight:bold;	
+	font-size:50spx;
+}
